@@ -17,22 +17,22 @@ ops due to my research into high-performance DSM.
 
 ## Intended libraries to test
 
-[ ] accelerate-llvm-native
-[ ] accelerate-blas
-[ ] hmatrix
-[ ] haskell-eigen
+- accelerate-llvm-native 
+- accelerate-blas
+-  hmatrix
+-  haskell-eigen
 
 ## Reference implementations
 
-[ ] eigen c++
-[ ] handcrafted c
+- eigen c++
+- handcrafted c
 
 ## Once I have a CUDA toolkt which is compatible with Xcode 9.3
 
-[ ] accelerate-llvm-ptx
-[ ] accelerate-blas (cuBLAS)
-[ ] handcrafted CUDA kernel
-[ ] hancrafted metal/openCL kernel
+- accelerate-llvm-ptx
+- accelerate-blas (cuBLAS)
+- handcrafted CUDA kernel
+- hancrafted metal/openCL kernel
 
 ## Compilers
 
