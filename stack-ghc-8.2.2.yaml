@@ -1,0 +1,25 @@
+resolver: lts-11.2
+
+packages:
+- .
+
+# extra-deps: []
+
+# Override default flag values for local packages and extra-deps
+flags:
+  accelerate-blas:
+    llvm-ptx: false
+
+
+# extra-package-dbs: []
+# system-ghc: true
+# require-stack-version: -any # Default
+# require-stack-version: ">=1.6"
+
+# arch: i386
+# arch: x86_64
+
+# extra-include-dirs: [/path/to/dir]
+# extra-lib-dirs: [/path/to/dir]
+
+# compiler-check: newer-minor
